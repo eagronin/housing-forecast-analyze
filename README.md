@@ -1,9 +1,9 @@
 # Analysis
 
 ## Overview
-This section describes the model for predicting home values.  The model was estimated using a random forest fitted to the training data and evaluated using test data.  The model produced the test set R-squared of 0.92. 
+This section describes the model for predicting home values in Denver, CO.  The model was estimated using a random forest fitted to the training data and evaluated using test data.  The model produced the test set R-squared of 0.91. 
 
-Cleaning and processing of the data are described in the [previous section](https://eagronin.github.io/housing-forecast-prepare/).
+Cleaning and processing of the data is described in the [previous section](https://eagronin.github.io/housing-forecast-prepare/).
 
 The results are reported in the [next section](https://eagronin.github.io/housing-forecast-analyze/).
 
@@ -12,7 +12,7 @@ The analysis for this project was performed in Python.
 ## Methodology in Assessing the Data 
 In order to predict home values I fitted a linear regression, the lasso and a random forest.  The lasso model was used in order to determine the most relevant features by shrinking the coefficients of less relevant features to zero.   Following the implementation of the lasso, the features with non-zero coefficients were used for fitting a random forest.   
 
-The table provides a preliminary look at which features are likely to be important predictors of home value by showing correlations of each feature with estimated_value:
+The table provides a preliminary look at which features are likely to be important predictors of home value by showing correlations of each feature with estimated_value, lastSaleAmount and priorSaleAmount:
 
 ```
                              estimated_value  lastSaleAmount  priorSaleAmount

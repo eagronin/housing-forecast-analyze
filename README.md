@@ -5,7 +5,7 @@ This section describes a model for predicting home values in Denver, CO.  The mo
 
 Cleaning and processing of the data is described in the [previous section](https://eagronin.github.io/housing-forecast-prepare/).
 
-The results are reported in the [next section](https://eagronin.github.io/housing-forecast-analyze/).
+The results are reported in the [next section](https://eagronin.github.io/housing-forecast-report/).
 
 The analysis for this project was performed in Python.
 

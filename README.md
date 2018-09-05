@@ -1,7 +1,7 @@
 # Analysis
 
 ## Overview
-This section describes the model for predicting home values in Denver, CO.  The model was estimated using a random forest fitted to the training data and evaluated using test data.  The model produced the test set R-squared of 0.91. 
+This section describes a model for predicting home values in Denver, CO.  The model was estimated using a random forest fitted to the training data and evaluated using test data.  The model produced the test set R-squared of 0.91. 
 
 Cleaning and processing of the data is described in the [previous section](https://eagronin.github.io/housing-forecast-prepare/).
 
